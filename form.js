@@ -36,3 +36,19 @@ items[2].textContent='vegetable'
 //items[5].innerHtml ='<h1>item 5</h1>'
 li[4].textContent='egg'
 
+var secondItem =document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.background = 'blue'
+var thrirditem =document.querySelector('.list-group-item:nth-child(3)');
+secondItem.style.display ='none'
+
+//querry selecter all
+var fourthlis =document.querySelectorAll('.list-group-item');
+fourthlis[3].style.color='green'
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(var i=0;i<odd.length;i++)
+{
+       odd[i].style.background='#f4f4f4'
+}
+
+
+
